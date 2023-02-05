@@ -1,3 +1,7 @@
+/* change the values below to your chosen font(s)
+--heading-font: "Alegreya";
+--paragraph-font: Source Sans Pro, Helvetica, sans-serif; */
+
 :root {
 
     --primary-color: #33658A   ;
@@ -12,20 +16,28 @@
 
 nav a {text-decoration: none;
     text-align: center;
-    color: #33658A;
+    color: var(--accent2-color);
+    padding: 35px;
 }
 
-#hero-msg h1,
+#hero-msg h1 {
+    text-align: center;
+    margin: 1.5px auto;
+    color: var(--primary-color);
+}
+
 #hero-msg h4 {
     text-align: center;
     margin: 0 auto;
-    color: var(--accent2-color);
+    color: var(--primary-color);
 
 }
 
 .button-box {
     text-align: center;
     color: var(--accent2-color);
+    margin-top:20px ;
+    margin-bottom: 20px;
 }
 
 main section {
@@ -41,9 +53,13 @@ body {
     background-color: #E7ECEF
 }
 
+h2 {
+    Margin: 0;
+} 
+
 header {
-    background-color: #33658A
-    var(--accent2-color)
+    background-color: #33658A;
+    color: var(--accent1-color);
 }
 
 nav a:hover {
@@ -54,12 +70,18 @@ nav a:hover {
 .join {text-decoration: none;
     background-color: var(--primary-color);
     color: var(--accent2-color);
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    
 }
 
 
 .book:hover,
 .join:hover {
     background-color: var(--secondary-color);
+    margin-top: 16px;
 }
 
 #background {
@@ -67,26 +89,36 @@ nav a:hover {
 }
 
 .msg {
-    background-color: #644536
+    background-color: #644536;
+    line-height:  1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: var(--primary-color);
     color: var(--accent2-color);
+    padding: 25px 50px;
 }
 
 
 .home-title {
+    font-family: Sans Pro,Arial, Helvetica, sans-serif
+    font size 2em ;
     color:black ;
+    font-family: "Alegreya";
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 h4 {
-    color:#E7ECEF
+    color:#E7ECEF;
+    margin-bottom: 10px;
 }
 
 .book:hover,
 .join:hover {
-    color:var(--accent-2-color) 
+    color:var(--accent-2-color) ;
+    margin-top: 50px;
 }
 
 .msg h2 {
@@ -94,7 +126,8 @@ h4 {
 }
 
 .msg p {
-    color:var(--accent1-color) ;
+    color:var(--accent2-color) ;
+    padding-bottom: 15px;
 }
 
 footer a {text-decoration: none;
@@ -102,9 +135,30 @@ footer a {text-decoration: none;
 }
 
 footer a:hover {
-    color:var(--accent1-color) ;
+    color:var(--secondary-color) ;
 }
 
-.logos,
-.icon{width:80px}
+.logos {
+
+}
+
+
+.icon{width:80px;
+    padding-top: 10px;
+
+}
+
 #hero-image{width: 100%;}
+
+.rivers-card{
+
+
+ }
+
+.camping-card{
+
+}
+
+.rapids-card{
+
+}
